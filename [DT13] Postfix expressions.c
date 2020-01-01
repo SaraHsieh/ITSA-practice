@@ -28,7 +28,7 @@ int main()
         int i, a, b;
         for(i=0; i<strlen(input); i++)
 	{
-            if(isdigit(input[i]))  /*¿é¤J¬°¼Æ¦r*/
+            if(isdigit(input[i]))  /*Â¿Ã©Â¤JÂ¬Â°Â¼Ã†Â¦r*/
                 push(&top, stack, input[i]-'0');
             else
             {
