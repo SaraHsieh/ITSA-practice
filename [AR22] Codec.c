@@ -7,7 +7,7 @@ int main()
     scanf("%s", code); /*input string*/
     int i;
     for(i=0; i<strlen(code); i++)
-        printf("%c", code[i]-3); /*±N½s½X-3«á¦A¿é¥X*/
+        printf("%c", code[i]-3); /*Â±NÂ½sÂ½X-3Â«Ã¡Â¦AÂ¿Ã©Â¥X*/
     printf("\n");
     return 0;
 }
