@@ -2,7 +2,7 @@
 #define MAX 50000
 int main() 
 {
-    int A[MAX], B[MAX], C[2*MAX], num_A, num_B, i, count, x, y, z, ncase; /*num_A is the size of maxtrix A¡Anum_B is the size of maxtrix B*/
+    int A[MAX], B[MAX], C[2*MAX], num_A, num_B, i, count, x, y, z, ncase; /*num_A is the size of maxtrix AÂ¡Anum_B is the size of maxtrix B*/
     scanf("%d", &ncase);
     while(ncase--)
     {
