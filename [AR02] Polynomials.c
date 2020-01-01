@@ -9,14 +9,14 @@ int main()
     temp[0]=1;
     highest=0;
     for(i=0; i<power; i++)
-    {  /*­¼power¦¸¤è¦¸*/
+    {  /*ä¹˜poweræ¬¡æ–¹æ¬¡*/
         for(j=0; j<=highest+2; j++)
             ans[j]=0;
         for(j=0; j<=highest; j++)   //temp
             for(k=0; k<3; k++)  //coef
                  ans[j+k] = ans[j+k] + temp[j]*coe[k];    /* [] means the power */
         for(j=0; j<=highest+2; j++)
-            temp[j]=ans[j]; //±N³o½üªºµª®×¦s¨ìtemp¡A¥H«K¤U¦¸Ä~Äò¬Û­¼
+            temp[j]=ans[j]; //å°‡é€™è¼ªçš„ç­”æ¡ˆå­˜åˆ°tempï¼Œä»¥ä¾¿ä¸‹æ¬¡ç¹¼çºŒç›¸ä¹˜
         highest=highest+2;
     }
     for(i=highest; i>=0; i--)
