@@ -16,7 +16,7 @@ int main()
             scanf("%d", enemy+i);
         for(i=0; i<num; i++)
             scanf("%d", soldier+i);
-        qsort(enemy, num, sizeof(int), compare);   /*�зǨ禡�w*/
+        qsort(enemy, num, sizeof(int), compare);   /*¼Ð·Ç¨ç¦¡®w*/
         qsort(soldier, num, sizeof(int), compare);
         i=j=0;
         while(j<num)
