@@ -8,14 +8,14 @@ int main()
     int num, temp, i, print=1;
     bool check[MAX];
     for(i=0;i<=MAX;i++)
-        check[i]=false; /*¥þ³¡³]¬°¤£´¿«ô³X*/
+        check[i]=false; /*å…¨éƒ¨è¨­ç‚ºä¸æ›¾æ‹œè¨ª*/
     scanf("%d", &num);
     for(i=1; i<=num; i++)
     {
         scanf("%d", &temp);
-        check[temp]=true; /*¦³³Q¿é¤Jªº­È³]°µ«ô³X¹L*/
+        check[temp]=true; /*æœ‰è¢«è¼¸å…¥çš„å€¼è¨­åšæ‹œè¨ªéŽ*/
         if(!check[i])
-        { /*¤£´¿«ô³X¹Lªº¬°missingªº*/
+        { /*ä¸æ›¾æ‹œè¨ªéŽçš„ç‚ºmissingçš„*/
             if(print)
                 printf("%d", i);
             else
