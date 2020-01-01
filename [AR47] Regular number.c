@@ -7,7 +7,7 @@ int main()
     int num;
     scanf("%d", &num);
     while(num!=1)
-    { /*¤À§O°£2¡B3¡B5(½è¼Æ)*/
+    { /*åˆ†åˆ¥é™¤2ã€3ã€5(è³ªæ•¸)*/
         if(num%2)   break;
         else    num=num/2;
     }
@@ -21,7 +21,7 @@ int main()
         if(num%5)   break;
         else    num=num/5;
     }
-    if(num!=1) /*¦pªG³Ì«á°£§¹ªºµ²ªG¬°1¡A¥Nªí³o­Ó¼Æ¦r¥u¥Ñ2¡B3¡B5¬Û­¼¦Ó±o¡A¬°*/
+    if(num!=1) /*å¦‚æœæœ€å¾Œé™¤å®Œçš„çµæœç‚º1ï¼Œä»£è¡¨é€™å€‹æ•¸å­—åªç”±2ã€3ã€5ç›¸ä¹˜è€Œå¾—ï¼Œç‚º*/
         printf("Irregular number!\n");
     else
         printf("Regular number!\n");
